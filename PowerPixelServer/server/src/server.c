@@ -12,9 +12,9 @@
 #include <stdio.h>
 #include <windows.h>
 
-#include "../../../MsgSubscribeServer/msg/msgServer/msgCom.h"
-#include "../../../MsgSubscribeServer/msg/msgServer/msgServer.h"
-#include "../../drv/inc/drvTypes.h"
+#include "../../../../PowerServer/MsgSubscribeServer/msg/msgServer/msgCom.h"
+#include "../../../../PowerServer/MsgSubscribeServer/msg/msgServer/msgServer.h"
+#include "drv/inc/drvTypes.h"
 #include "../inc/drvServer.h"
 #include "../inc/sktServer.h"
 

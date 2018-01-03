@@ -5,14 +5,15 @@
  *  Author: gift
  */
 
-#include "../inc/drv.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
 
-#include "../../../MsgSubscribeServer/container/linkList.h"
-#include "../../system/systemIf.h"
+//#include "MsgSubscribeServer/container/linkList.h"
+#include "../../../../PowerServer/MsgSubscribeServer/container/linkList.h"
+#include "system/systemIf.h"
 #include "../inc/bsp.h"
+#include "../inc/drv.h"
 
 #define SAMPLING_INTERVAL_MS	(1000)
 

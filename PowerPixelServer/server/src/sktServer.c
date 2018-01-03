@@ -11,14 +11,15 @@
 #include <stdio.h>
 #include <winsock2.h>
 
-#include "../../../MsgSubscribeServer/msg/msgServer/msgCom.h"
-#include "../../../MsgSubscribeServer/msg/msgServer/msgServerDef.h"
-#include "../../../MsgSubscribeServer/msg/msgServer/msgTimeDef.h"
-#include "../../../socket/socketMsg.h"
-#include "../../../socket/socketServer.h"
-#include "../../../socket/typedef.h"
-#include "../../drv/inc/drvTypes.h"
-#include "../../system/systemIf.h"
+#include "../../../../PowerServer/MsgSubscribeServer/msg/msgServer/msgCom.h"
+#include "../../../../PowerServer/MsgSubscribeServer/msg/msgServer/msgServerDef.h"
+#include "../../../../PowerServer/MsgSubscribeServer/msg/msgServer/msgTimeDef.h"
+#include "../../../../PowerSocket/socket/typedef.h"
+#include "../../../../PowerSocket/socket/socketMsg.h"
+#include "../../../../PowerSocket/socket/socketServer.h"
+#include "drv/inc/drvTypes.h"
+#include "system/systemIf.h"
+
 
 #define MAX_RECV_LENTH						((320 * 240 * 4) + 64)
 #define MAX_CONNECT_PORTS_NUM				(4)

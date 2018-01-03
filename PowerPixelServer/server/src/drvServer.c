@@ -12,12 +12,12 @@
 #include <stddef.h>
 #include <stdio.h>
 
-#include "../../../MsgSubscribeServer/msg/msgDef.h"
-#include "../../../MsgSubscribeServer/msg/msgServer/msgCom.h"
-#include "../../../MsgSubscribeServer/msg/msgServer/msgServer.h"
-#include "../../../MsgSubscribeServer/msg/msgServer/msgServerDef.h"
-#include "../../drv/inc/drv.h"
-#include "../../drv/inc/drvTypes.h"
+#include "../../../../PowerServer/MsgSubscribeServer/msg/msgDef.h"
+#include "../../../../PowerServer/MsgSubscribeServer/msg/msgServer/msgCom.h"
+#include "../../../../PowerServer/MsgSubscribeServer/msg/msgServer/msgServer.h"
+#include "../../../../PowerServer/MsgSubscribeServer/msg/msgServer/msgServerDef.h"
+#include "drv/inc/drv.h"
+#include "drv/inc/drvTypes.h"
 #include "../inc/serverTypes.h"
 struct msg_bind_map {
 	T_MSG_SN msgType;
